@@ -1,0 +1,28 @@
+{
+  "name": "ras-mirror",
+  "version": "1.0.0",
+  "description": "A legendary mirror said to 'reflect the truth'. It has the effect of revealing the true identity of value that has been disguised as a string, or of restoring what has been transformed into a string.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "prebuild": "rimraf dist",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Yuta Suzuki <yutasuzuki.r@gmail.com> (https://github.com/yutasuzuki)",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@jest/types": "^29.3.1",
+    "@types/jest": "^29.2.2",
+    "@types/node": "^18.11.9",
+    "jest": "^29.3.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^29.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  }
+}

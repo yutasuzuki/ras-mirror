@@ -6,11 +6,20 @@
   "scripts": {
     "test": "jest",
     "prebuild": "rimraf dist",
-    "build": "tsc"
+    "build": "tsc",
+    "dev": "ts-node ./example"
   },
-  "keywords": [],
+  "keywords": ["convert from strings"],
   "author": "Yuta Suzuki <yutasuzuki.r@gmail.com> (https://github.com/yutasuzuki)",
-  "license": "ISC",
+  "license": "MIT",
+  "homepage": "https://github.com/yutasuzuki/ras-mirror#README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yutasuzuki/ras-mirror.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yutasuzuki/ras-mirror/issues"
+  },
   "files": [
     "dist"
   ],

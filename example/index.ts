@@ -37,6 +37,8 @@ type jsonType = {
   items: {
     id: number
     name: string
+    create_at: Date
+    delete_at?: Date
   }[]
 }
 
@@ -47,3 +49,7 @@ type ArrayType = {
 
 console.log(rasMirror<jsonType>(stringJson))
 console.log(rasMirror<ArrayType>(stringArray))
+console.log(rasMirror("foo"))
+console.log(rasMirror("2022-12-31 12:34:10"))
+console.log(rasMirror("12.345"))
+console.log(rasMirror("true"))

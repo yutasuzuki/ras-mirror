@@ -87,24 +87,24 @@ const stringJson = {
 }
 
 const result = rasMirror<jsonType>(stringJson)
-/* { 
+/* {
   result: false,
   count: 2,
   items: [
     {
       id: 1,
-      name: "foo",
-      create_at: new Date("2022/12/31 12:34:50"),
+      name: 'foo',
+      create_at: 2022-12-31T03:34:50.000Z,
       delete_at: undefined
     },
     {
       id: 2,
-      name: "bar",
-      create_at: new Date("2023-1-1 1:23:45"),
+      name: 'bar',
+      create_at: 2022-12-31T16:23:45.000Z,
       delete_at: undefined
     }
   ]
-}*/
+} */
 
 ```
 
